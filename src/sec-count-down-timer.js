@@ -6,7 +6,7 @@
     var __isNode     = ('process' in global);
 
     if (__isAMD) {
-        define([], function () {
+        define(['exports'], function(exports) {
             return factory(global, exports);
         });
     } else if (__isCommonJS || __isNode) {
