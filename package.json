@@ -1,0 +1,28 @@
+{
+  "name": "sec-count-down-timer",
+  "version": "0.0.0",
+  "description": "Count down rest seconds",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leader22/sec-count-down-timer.git"
+  },
+  "author": "leader22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leader22/sec-count-down-timer/issues"
+  },
+  "homepage": "https://github.com/leader22/sec-count-down-timer",
+  "devDependencies": {
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp": "^3.8.10",
+    "gulp-header": "^1.2.2"
+  }
+}
